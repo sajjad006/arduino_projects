@@ -2,11 +2,11 @@
 #include <FirebaseArduino.h>
 #include <Servo.h>
 
-#define FIREBASE_HOST "android-login-system.firebaseio.com"
-#define FIREBASE_AUTH "zkFkV0bY6gdWMt9J7K76QXvc6M3uW6bYZWmykf6U"
+#define FIREBASE_HOST "FIREBASE_PROJECT_NAME.firebaseio.com"
+#define FIREBASE_AUTH "YOUR_FIREBASE_AUTH_KEY"
 
-#define WIFI_SSID "Zayed"
-#define WIFI_PASSWORD "shaaz502"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 Servo doorServo, fanServo;
 int led=D7, motionSensor = D6, ac=D8;
